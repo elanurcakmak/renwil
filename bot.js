@@ -124,7 +124,7 @@ client.on("error", e => {//Lord Creative
   console.log(chalk.bgRed(e.replace(regToken, "that was redacted")));
 });
 
-client.login(ayarlar.token);
+client.login(ayarlar.token)
 /////
 
 //---------------------------------KOMUTLAR---------------------------------\\
