@@ -46,4 +46,3 @@ exports.help = {
   description: 'Oylama yapmanızı sağlar.',
   usage: 'oylama <oylamaismi>'
 };
-//Lord Creative

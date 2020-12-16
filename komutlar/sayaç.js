@@ -1,5 +1,5 @@
 const Discord = require('discord.js'),
-      db = require('quick.db'),
+      db = require('wio.db'),
       ayarlar = require('../ayarlar.json'),
       prefix = ayarlar.prefix
 exports.run = async (client, message, args) => {

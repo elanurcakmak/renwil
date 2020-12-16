@@ -7,7 +7,7 @@ exports.run = async (client, message, args, config) => {
 
   if (!message.member.hasPermission("MANAGE_CHANNELS")) return message.reply(`Bu komutu kullanabilmek için **Kanalları Yönet** iznine sahip olmalısın!`);
   
-  const db = require('quick.db');
+  const db = require('wio.db');
   
   
   let channel = message.mentions.channels.first()

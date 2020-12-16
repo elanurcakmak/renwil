@@ -1,4 +1,4 @@
-const Discord = require('discord.js')
+Discord = require('discord.js')
 
 exports.run = async (client, message, args) => {
   
@@ -31,4 +31,3 @@ exports.help = {
   description: 'Gelişmiş Yardım Menüsü',
   usage: 'yardım'
 }
-//Lord Creative

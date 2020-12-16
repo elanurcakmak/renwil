@@ -10,7 +10,7 @@ exports.run = async(client, message, args) => {
     if (args[0] == 'aç') {
     db.set(`reklamFiltre_${message.guild.id}`, 'acik')
     let i = await db.fetch(`reklamFiltre_${message.guild.id}`)
-  message.channel.send(`<a:667791012739022858:696373295385280552> | Reklam Filtresi başarıyla ayarlandı.`)    
+  message.channel.send(`:white_check_mark: | Reklam Filtresi başarıyla ayarlandı.`)    
      
   } 
 
@@ -22,7 +22,7 @@ exports.run = async(client, message, args) => {
     
     db.delete(`reklamFiltre_${message.guild.id}`)
     
-    message.channel.send(`<a:8416_like:698617502711808090> | Reklam filtresi başarılı bir şekilde kapatıldı.`)
+    message.channel.send(`:white_check_mark: | Reklam filtresi başarılı bir şekilde kapatıldı.`)
   }
  
 };
